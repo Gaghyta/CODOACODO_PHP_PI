@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav.navbar {
+    background-color: #404449;
+}
+
+header nav.navbar .nav-link {
+    color: white;
+    font-size: 13px;
+}
+
+header nav.navbar .nav-link:hover {
+    color: #64f379; /*color verde claro en formato hexadecimal*/
+}
+
+.navbar-brand img {
+    margin-left: 2rem;
+    margin-right: 2rem; /* espacio entre el logo y el texto */
+    height: 50px;
+}

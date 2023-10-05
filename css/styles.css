@@ -22,3 +22,8 @@ header nav.navbar .nav-link:hover {
     margin-right: 2rem; /* espacio entre el logo y el texto */
     height: 50px;
 }
+
+.conf-bs-as {
+    color: white;
+    font-size: 16px;
+}

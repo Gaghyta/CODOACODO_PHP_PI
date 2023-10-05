@@ -6,24 +6,49 @@ body {
 
 header nav.navbar {
     background-color: #404449;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
 header nav.navbar .nav-link {
     color: white;
     font-size: 13px;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 header nav.navbar .nav-link:hover {
     color: #64f379; /*color verde claro en formato hexadecimal*/
 }
 
-.navbar-brand img {
-    margin-left: 2rem;
-    margin-right: 2rem; /* espacio entre el logo y el texto */
+header nav.navbar .navbar-brand img {
+    
     height: 50px;
+    margin-right: 20px;
+    /*margin-left: 2rem;
+    margin-right: 2rem;  espacio entre el logo y el texto 
+    height: 50px;*/
 }
 
 .conf-bs-as {
     color: white;
     font-size: 16px;
+}
+
+.hamburguesa {
+    background-color: #28323b;
+    margin-top: 1.0em;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+}
+
+header nav.navbar ul.navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+header nav.navbar ul.navbar-nav li.nav-item {
+    display: inline;
 }

@@ -39,9 +39,9 @@ header nav.navbar .navbar-brand img {
 
 .hamburguesa {
     background-color: #28323b;
-    margin-top: 1.0em;
+   /* margin-top: 1.0em;
     margin-bottom: 1.5em;
-    margin-right: 1.5em;
+    margin-right: 1.5em;*/
 }
 
 header nav.navbar ul.navbar-nav {
@@ -51,4 +51,10 @@ header nav.navbar ul.navbar-nav {
 
 header nav.navbar ul.navbar-nav li.nav-item {
     display: inline;
+}
+footer{
+    margin-top: 3em;
+    min-height: 5em;
+    /*background-color: #404449;*/
+    background-image: linear-gradient(rgb(33, 72, 89),rgb(11, 69, 88));
 }

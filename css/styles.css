@@ -100,6 +100,14 @@ header nav.navbar ul.navbar-nav li.nav-item {
     color: aliceblue;
 }
 
+.recordatorio-text-area{
+    font-weight: 300;
+    font: 0.95em sans-serif;
+    color: #8a8686;
+    font-stretch: semi-expanded;
+}
+
+
 footer{
     margin-top: 3em;
     min-height: 5em;

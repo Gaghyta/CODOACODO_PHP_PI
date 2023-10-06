@@ -83,6 +83,11 @@ header nav.navbar ul.navbar-nav li.nav-item {
     border-top-right-radius: 0.5em;
 }
 
+#conocermas{
+    margin-left: 3em;
+    padding: 0;
+}
+
 #botoncito.btn-info{
     background-color: #05a4a9 !important;
     border: #58b4a4 !important;

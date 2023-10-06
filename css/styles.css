@@ -53,6 +53,13 @@ header nav.navbar ul.navbar-nav li.nav-item {
     display: inline;
 }
 
+.oscurecer-imagen{
+    filter: brightness(0.5);
+    /*filter: opacity(0.5);*/
+   /*linear-gradient(rgba(0, 0, 0, 0.5));*/
+}
+
+
 .conoce-a-los{
 
     font-family: Helvetica,sans-serif;
@@ -75,9 +82,6 @@ header nav.navbar ul.navbar-nav li.nav-item {
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
-
-
-
 
 
 footer{

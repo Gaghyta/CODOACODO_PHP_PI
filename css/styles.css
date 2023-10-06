@@ -113,7 +113,7 @@ header nav.navbar ul.navbar-nav li.nav-item {
     margin-bottom: 2em;
     margin-left: 2em;
     align-items: center;
-    color: #fff;
+    color: #000000;
 }
 
 #rectangulo-botonera{
@@ -124,6 +124,10 @@ header nav.navbar ul.navbar-nav li.nav-item {
     background-color: #044e68;
     z-index: 80;
     box-sizing: border-box;
+}
+
+#quiero-ser-orador {
+    margin-right: 1em;
 }
 
 footer{

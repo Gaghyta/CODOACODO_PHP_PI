@@ -83,6 +83,17 @@ header nav.navbar ul.navbar-nav li.nav-item {
     border-top-right-radius: 0.5em;
 }
 
+#botoncito.btn-info{
+    background-color: #05a4a9 !important;
+    border: #58b4a4 !important;
+    margin-bottom: 3em !important;
+}
+
+#botoncito.btn-info:active{
+    background-color: #073437 !important;
+    border: #074660 !important;
+    color: aliceblue;
+}
 
 footer{
     margin-top: 3em;

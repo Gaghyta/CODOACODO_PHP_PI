@@ -107,6 +107,24 @@ header nav.navbar ul.navbar-nav li.nav-item {
     font-stretch: semi-expanded;
 }
 
+.bs-octubre-text{
+    font-size: smaller;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    align-items: center;
+    color: #fff;
+}
+
+#rectangulo-botonera{
+    margin-top: 0%;
+    margin-bottom:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color: #044e68;
+    z-index: 80;
+    box-sizing: border-box;
+}
 
 footer{
     margin-top: 3em;

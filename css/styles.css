@@ -88,16 +88,24 @@ header nav.navbar ul.navbar-nav li.nav-item {
     padding: 0;
 }
 
-#botoncito.btn-info{
+.btn-info{
     background-color: #05a4a9 !important;
     border: #58b4a4 !important;
     margin-bottom: 3em !important;
 }
 
-#botoncito.btn-info:active{
-    background-color: #073437 !important;
-    border: #074660 !important;
-    color: aliceblue;
+#comprar-tickets {
+    margin-right: 1em;
+    background-color: #85f395;
+    border-color: #3ff45a;
+    color: rgb(16, 22, 26)
+}
+
+.btn-info:active{
+    margin-right: 1em !important;
+    background-color: #85f395!important;
+    border-color: #3ff45a !important;
+    color: rgb(16, 22, 26)!important;
 }
 
 .recordatorio-text-area{
@@ -129,6 +137,8 @@ header nav.navbar ul.navbar-nav li.nav-item {
 #quiero-ser-orador {
     margin-right: 1em;
 }
+
+
 
 footer{
     margin-top: 3em;

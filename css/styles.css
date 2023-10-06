@@ -84,14 +84,50 @@ header nav.navbar ul.navbar-nav li.nav-item {
 }
 
 #conocermas{
-    margin-left: 3em;
-    padding: 0;
+    padding: 2px 2px;
 }
 
 .btn-info{
     background-color: #05a4a9 !important;
     border: #58b4a4 !important;
     margin-bottom: 3em !important;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.row {
+    width: 100%; 
+}*/
+
+.imagen-bs-octubre {
+    padding:0;
+    width: 50%;
+    margin: 0;
+    flex: 0 0 50%;
+    object-fit: cover;
+}
+
+.text.bs-octubre-text {
+    margin: 0;
+    padding:2em;
+    background-color: #404449;
+    color: white; 
+    width: 50%;
+    /*flex: 0 0 70%;*/
+}
+
+.bs-octubre-rectangulo{
+    height: auto;
+    /*width: 80%; */
+    flex: 0 0 50%;
 }
 
 #comprar-tickets {
@@ -138,12 +174,21 @@ header nav.navbar ul.navbar-nav li.nav-item {
     margin-right: 1em;
 }
 
+u {
 
+    color: #3e413e;
+    text-decoration-style: dotted;
+    text-underline-offset:0.3em;
+}
 
 footer{
     margin-top: 3em;
     min-height: 5em;
     /*background-color: #404449;*/
     background-image: linear-gradient(rgb(33, 72, 89),rgb(11, 69, 88));
+}
+
+a.nav-link{
+    color: #ffffff;
 }
 

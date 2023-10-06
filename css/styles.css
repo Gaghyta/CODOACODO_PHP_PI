@@ -52,9 +52,31 @@ header nav.navbar ul.navbar-nav {
 header nav.navbar ul.navbar-nav li.nav-item {
     display: inline;
 }
+
+.conoce-a-los{
+
+    font-family: Helvetica,sans-serif;
+    font-size: 0.85em;
+    color: #555252;
+
+}
+.oradores{
+    font-family: Helvetica,sans-serif;
+    font-size: 1.50em;
+    color: #2f2d2d;
+}
+
+
+
+
+
+
+
+
 footer{
     margin-top: 3em;
     min-height: 5em;
     /*background-color: #404449;*/
     background-image: linear-gradient(rgb(33, 72, 89),rgb(11, 69, 88));
 }
+

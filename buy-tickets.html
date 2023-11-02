@@ -14,7 +14,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="./styles.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -60,7 +60,7 @@
 
     <main class="d-flex flex-column gap2">
         <div class= "d-flex justify-content-center gap-5 mt-5">
-            <div class="card border-primary mb-3">
+            <div class="card border-primary mb-3 clickable-card">
                 <div class="card-header text-center fw-bold fs-3 text-primary">
                     Estudiante
                 </div>
@@ -70,7 +70,7 @@
                     <p>* presentar documentación</p> 
                  </div> 
             </div>
-            <div class="card border-success  mb-3">
+            <div class="card border-success  mb-3 clickable-card">
                 <div class="card-header text-center fw-bold fs-3 text-success ">
                     Trainee
                 </div>
@@ -80,7 +80,7 @@
                     <p>* presentar documentación</p> 
                 </div>       
             </div>
-            <div class="card border-danger  mb-3">
+            <div class="card border-danger  mb-3 clickable-card">
                 <div class="card-header text-center fw-bold fs-3 text-danger">
                     Junior
                 </div>
@@ -125,9 +125,9 @@
                                 <div class="col">
                                     <label for="categoria">Categoría</label>
                                     <select class="form-control" id="categoria">
-                                        <option value="estudiante">Estudiante</option>
-                                        <option value="trainee">Trainee</option>
-                                        <option value="junior">Junior</option>
+                                        <option value="estudiante" data-descuento="80">Estudiante</option>
+                                        <option value="trainee" data-descuento="50">Trainee</option>
+                                        <option value="junior" data-descuento="15">Junior</option>
                                     </select>
                                 </div>
                             </div>
@@ -146,7 +146,9 @@
                                 <button class="btn btn-success btn-block" type="button">Borrar</button>
                             </div>
                             <div class="col-6 col-md-4">
-                                <button class="btn btn-success btn-block" type="button">Resumen</button>
+                                <!--<button class="btn btn-success btn-block" type="button">Resumen</button>-->
+                                <button class="btn btn-success btn-block resumen-button" type="button">Resumen</button>
+
                             </div>
                         </div>
                     </div>
@@ -186,4 +188,42 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            // funciones
+            function calcularTotalConDescuento(cantidad, descuento, precioOriginal) {
+            return cantidad * precioOriginal * ((100 - descuento) / 100);
+            }
+
+            function limpiarTotal() {
+            const totalInput = document.getElementById("total");
+            totalInput.value = "";
+            }
+
+            // Evento de clic botón Resumen
+            const resumenButton = document.querySelector(".resumen-button");
+            resumenButton.addEventListener("click", function () {
+            const cantidadInput = document.getElementById("cantidad");
+            const cantidad = parseInt(cantidadInput.value) || 0;
+
+            const categoriaSelect = document.getElementById("categoria");
+            const selectedOption = categoriaSelect.options[categoriaSelect.selectedIndex];
+            const descuento = parseInt(selectedOption.getAttribute("data-descuento")) || 0;
+
+            const precioOriginal = 100;
+            const total = calcularTotalConDescuento(cantidad, descuento, precioOriginal);
+
+            const totalInput = document.getElementById("total");
+            totalInput.value = "Total a Pagar: $" + total.toFixed(2);
+            });
+
+            // Evento de click botón Borrar
+            const borrarButton = document.getElementById("borrar-button");
+            borrarButton.addEventListener("click", limpiarTotal);
+
+            
+        });       
+
+    </script>
+        
 </body>

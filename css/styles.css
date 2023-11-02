@@ -165,8 +165,8 @@ header nav.navbar ul.navbar-nav li.nav-item {
     margin-bottom:5%;
     padding-top:5%;
     padding-bottom:5%;
-    background-color: #044e68;
-    z-index: 80;
+   background-color: #044e68;
+    z-index: 80; 
     box-sizing: border-box;
 }
 
@@ -190,5 +190,9 @@ footer{
 
 a.nav-link{
     color: #ffffff;
+}
+
+a.nav-link:hover{
+    color: #97f21f;
 }
 

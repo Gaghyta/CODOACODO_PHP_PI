@@ -223,4 +223,6 @@ a.nav-link:hover{
 .btn {
     margin-right: 10px; /* Agregar margen derecho a los botones */
     margin-bottom: 10px; /* Agregar margen inferior a los botones */
+    background-color:#98c93e;
+    border-style: none;
 }

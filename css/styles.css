@@ -208,6 +208,7 @@ a.nav-link:hover{
 
 #total{
     background-color: #cce5ff;
+    height: 3rem;
 }
 
 /* Márgenes para el contenedor de los botones */
@@ -225,4 +226,28 @@ a.nav-link:hover{
     margin-bottom: 10px; /* Agregar margen inferior a los botones */
     background-color:#98c93e;
     border-style: none;
+}
+
+.card-title-custom {
+    color: black !important; /* Color de texto negro */
+    font-size: 24px !important;
+    font-weight: 400 !important; /* Tamaño de fuente personalizado */
+}
+
+.card-text-big-custom{
+    color: black !important; /* Color de texto negro */
+    font-size: 20px !important;
+    font-weight: 400 !important; /* Tamaño de fuente personalizado */
+
+}
+
+.card-text-medium-custom {
+    color: rgb(12, 12, 12) !important; /* Color de texto negro */
+    font-size: 14px !important;
+    font-weight: lighter !important; /* Tamaño de fuente personalizado */
+}
+
+.porcentaje-black{
+    font: 500;
+    color: #000000!important;
 }

@@ -203,3 +203,8 @@ a.nav-link:hover{
     height: 40%; /* Ejemplo: 60% de la altura de la ventana */
     margin: 0 auto; /* Centrar horizontalmente en la pantalla */
 }
+/*COLOR INPUT #cce5ff*/
+
+#total{
+    background-color: #cce5ff;
+}

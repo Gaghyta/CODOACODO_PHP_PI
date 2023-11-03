@@ -196,3 +196,10 @@ a.nav-link:hover{
     color: #97f21f;
 }
 
+/* ************************* BUY TICKETS ******************************** */
+
+.container-datos {
+    width: 80%; /* Ejemplo: 80% de ancho de la ventana */
+    height: 40%; /* Ejemplo: 60% de la altura de la ventana */
+    margin: 0 auto; /* Centrar horizontalmente en la pantalla */
+}

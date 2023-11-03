@@ -200,11 +200,27 @@ a.nav-link:hover{
 
 .container-datos {
     width: 80%; /* Ejemplo: 80% de ancho de la ventana */
-    height: 40%; /* Ejemplo: 60% de la altura de la ventana */
+    height: auto; /* Ejemplo: 60% de la altura de la ventana */
     margin: 0 auto; /* Centrar horizontalmente en la pantalla */
+    padding: 20px;
 }
 /*COLOR INPUT #cce5ff*/
 
 #total{
     background-color: #cce5ff;
+}
+
+/* Márgenes para el contenedor de los botones */
+.container-datos {
+    margin: 20px;
+}
+
+/* Márgenes para los elementos del formulario */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-right: 10px; /* Agregar margen derecho a los botones */
+    margin-bottom: 10px; /* Agregar margen inferior a los botones */
 }

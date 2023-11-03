@@ -102,34 +102,37 @@
                 </div>
 
                 <form>
-                    <div class="cotainer-form-sin-titulo-y-botones text-center">
+                    <div class="container-datos-sin-titulo-y-subtitulo">
                         <div class="form">
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                             </div>
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <input type="text" class="form-control" id="apellido" placeholder="Apellido/s">
                             </div>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-12">
                             <input type="email" class="form-control" id="correo" placeholder="Correo">
                         </div>
                         <div>
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col col-sm">
                                         <label for="cantidad">Cantidad</label>
                                         <div class="input-group">
                                             <input type="number" class="form-control" id="cantidad" placeholder="cantidad">
                                     </div>
                                 
-                                    <div class="col">
+                                    <div class="row justify-content-center">
                                         <label for="categoria">Categoría</label>
-                                        <select class="form-control" id="categoria">
-                                            <option value="estudiante" data-descuento="80">Estudiante</option>
-                                            <option value="trainee" data-descuento="50">Trainee</option>
-                                            <option value="junior" data-descuento="15">Junior</option>
-                                        </select>
+                                        <div class="col col-sm">
+                                            <select class="form-control" id="categoria">
+                                                <option value="estudiante" data-descuento="80">Estudiante</option>
+                                                <option value="trainee" data-descuento="50">Trainee</option>
+                                                <option value="junior" data-descuento="15">Junior</option>
+                                            </select>
+                                        </div>
+                                        
                                     </div>        
                                     
                                 </div>
@@ -153,7 +156,7 @@
                             <!--<div class="col-6 col-md-4">
                                 <button class="btn btn-success btn-block resumen-button" type="button">Resumen</button>
                             </div>-->
-                            <button class="btn btn-success btn-block resumen-button col-sm" type="button">Resumen</button>
+                            <button class="resumen-button btn btn-success btn-block col-sm" type="button">Resumen</button>
 
                         </div>
                     </div>
